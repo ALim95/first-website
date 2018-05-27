@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Design | Home</title>
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+</head>
+
+<body>
+  <header id="top-nav">
+    <div class="container">
+      <div id="branding">
+        <h1>Audeal</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current">
+            <a class="navlinks" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="navlinks" href="login.html">Login</a>
+          </li>
+          <li>
+            <a class="navlinks" href="signup.html">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <!-- <h1>Marketplace for audiophiles</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ducimus expedita itaque fuga quod, architecto nulla aspernatur, eligendi quaerat vel!</p> -->
+    </div>
+  </section>
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <a id="buy-box" href="">
+          <i id="buy-icon" class="fas fa-shopping-cart fa-7x"></i>
+        </a>
+        <h3>Buy</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, corporis praesentium. Culpa accusamus, esse
+          facilis. Ullam quisquam vel dolore provident.</p>
+      </div>
+      <div class="box">
+        <a id="sell-box" href="">
+          <i id="sell-icon" class="fas fa-money-bill-wave fa-7x"></i>
+        </a>
+        <h3>Sell</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus fuga mollitia similique error cum quaerat
+          natus nostrum tempore beatae accusamus.</p>
+      </div>
+      <div class="box">
+        <a id="trade-box" href="">
+          <i id="trade-icon" class="fas fa-balance-scale fa-7x"></i>
+        </a>
+        <h3>Trade</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores iste quam sed culpa eligendi reprehenderit necessitatibus,
+          nam rerum velit! Ut.</p>
+      </div>
+    </div>
+    <p id="headphone-guide">
+      <i id="headphone-icon" class="fas fa-headphones"></i> Check out our purchase
+      <a href="" target="_blank">guide</a> to decide what best suits you!
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="payment">
+    <h2>
+      Payments
+    </h2>
+    <div class="container">
+      <div class="pay-icon">
+        <i class="far fa-handshake fa-3x"></i>
+      </div>
+      <div class="pay-option">
+        <h3>Meet-up</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus amet, nesciunt dignissimos, cumque sit dolor nihil voluptatem
+          iusto laudantium culpa.
+        </p>
+      </div>
+      <div class="pay-icon">
+        <i class="far fa-credit-card fa-3x"></i>
+      </div>
+      <div class="pay-option">
+        <h3>Credit & debit cards</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus amet, nesciunt dignissimos, cumque sit dolor nihil voluptatem
+          iusto laudantium culpa.
+        </p>
+      </div>
+      <div class="pay-icon">
+        <i class="fas fa-wallet fa-3x"></i>
+      </div>
+      <div class="pay-option">
+        <h3>More payment methods</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus amet, nesciunt dignissimos, cumque sit dolor nihil voluptatem
+          iusto laudantium culpa.
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-columns">
+        <h3>Audeal</h3>
+        <ul>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Press</a>
+          </li>
+          <li>
+            <a href="#">Policies</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-columns">
+        <h3>Discover</h3>
+        <ul>
+          <li>
+            <a href="#">Trust & Safety</a>
+          </li>
+          <li>
+            <a href="#">Guide</a>
+          </li>
+          <li>
+            <a href="#">User Content</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-columns">
+        <h3 id="social-media">
+          <a href="">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </h3>
+        <ul>
+          <li>
+            <a href="#">Terms</a>
+          </li>
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+          <li>
+            <a href="#">Site Map</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p id="copyright">&copy; Audeal, Inc.</p>
+  </footer>
+
+  <script>
+    window.onscroll = () => {
+      const nav = document.querySelector('#top-nav');
+      var navlinks = document.getElementsByClassName('navlinks');
+      if (this.scrollY <= 100) {
+        nav.className = '';
+        for (var i = 0; i < 3; i++) {
+          navlinks[i].style.color = "white";
+        }
+      } else {
+        nav.className = 'scroll';
+        for (var i = 0; i < 3; i++) {
+          navlinks[i].style.color = "black";
+        }
+      }
+    };
+  </script>
+
+</body>
+
+</html>
